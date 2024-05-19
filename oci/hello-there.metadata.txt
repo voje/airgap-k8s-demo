@@ -1,0 +1,20 @@
+{
+    "Name": "localhost/hello-there",
+    "Digest": "sha256:02c48a29350faf400efab8f74636e6789f468113a62c6eaa33dfbfd353927bcf",
+    "RepoTags": [],
+    "Created": "2024-05-19T21:45:23.116230515Z",
+    "DockerVersion": "",
+    "Labels": {
+        "io.buildah.version": "1.23.1"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:d4fc045c9e3a848011de66f34b81f052d4f2c15a17bb196d637e526349601820",
+        "sha256:5da3fb4cde3b0e908d991bdc4fec29a0770310c6f2f41e27b282e2edffd8dfb9",
+        "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    ]
+}
