@@ -1,1 +1,7 @@
 registry/registry_data/
+**/*.tar
+
+talos/controlplane.yaml
+talos/talos.kube
+talos/talosconfig
+talos/worker.yaml

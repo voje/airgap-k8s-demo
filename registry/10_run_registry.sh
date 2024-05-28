@@ -1,9 +1,10 @@
 #!/bin/bash
 
 mkdir -p registry_data
-podman rm -f registry
-podman run -d \
-    -p 5000:5000 \
+docker rm -f registry
+docker run -d \
+    -p 6000:5000 \
     --name registry \
     -v "$(pwd)/registry_data":/var/lib/registry \
+    -e REGISTRY_STORAGE_DELETE_ENABLED=TRUE \
     registry:2
