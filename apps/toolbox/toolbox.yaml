@@ -1,0 +1,19 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: toolbox
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: toolbox
+  name: toolbox
+  namespace: toolbox
+spec:
+  containers:
+  - image: docker.io/voje/toolbox:0.0.9
+    name: toolbox
+    imagePullPolicy: Always
+    command: ["sleep", "inf"]
