@@ -1,8 +1,8 @@
 #!/bin/bash
 
 function main() {
-	# gen_image_list
-	# pull_images	
+	gen_image_list
+	pull_images	
 	# save_images
 	# remove_local_images   # simulate rsync to another server
 	# load_images
