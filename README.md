@@ -1,2 +1,3 @@
 # airgap-k8s-demo
-Scripts and configuration for deploying air-gapped k8s clusters.
+
+Scripts and config files for the airgap-k8s JCON 2024 presentation.

@@ -1,0 +1,12 @@
+DNS 			192.168.2.109
+NTP 			192.168.2.109
+
+api.demo.local		192.168.2.{55,50,114}
+node0.demo.local	192.168.2.55
+demo-node0		192.168.2.55
+node1.demo.local	192.168.2.50
+demo-node1		192.168.2.50
+node2.demo.local	192.168.2.114
+demo-node2 		192.168.2.114
+registry.demo.local 	192.168.2.109
+
